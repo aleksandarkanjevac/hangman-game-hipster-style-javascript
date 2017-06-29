@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Hangmen hipster edition</title>
+    <link rel="stylesheet" href="main.css">
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+
+
+<body style="background-color: black;">
+
+<div class="container-fluid">
+    <div id="monitor" class="col-md-12 ">
+    
+
+        <img id="hidden8" class="img-responsive" src="img/h8.png" />
+        <img id="hidden7" class="img-responsive" src="img/h7.png" />
+        <img id="hidden6" class="img-responsive" src="img/h6.png" />
+        <img id="hidden5" class="img-responsive" src="img/h5.png" />
+        <img id="hidden4" class="img-responsive" src="img/h4.png" />
+        <img id="hidden3" class="img-responsive" src="img/h3.png" />
+        <img id="hidden2" class="img-responsive" src="img/h2.png" />
+        <img id="hidden1" class="img-responsive" src="img/h1.png" />
+        <img id="hidden0" class="img-responsive" src="img/h1.png" />
+
+
+    </div>
+
+    <div id="choose" class="col-md-8 col-md-offset-2 text-center">
+        <button class="btn btn-lg" id="btn1" data-types="maleNames">Male names</button>
+        <button class="btn btn-lg" id="btn2" data-types="femaleNames">Women's name</button>
+        <button class="btn btn-lg" id="btn3" data-types="animals">Animals</button>
+        <button class="btn btn-lg" id="btn4" data-types="cities">Cities</button>
+    </div>
+
+
+
+
+
+    <form id="form" class="col-md-4 col-md-offset-2  form-inline">
+        <div class="form-group">
+        <input class="form-control" id="letter" type="text" maxlength="1" style="text-transform:uppercase;" autofocus>
+        <input class="btn btn-default" id="submitLetter" type="button" value="Submit">
+        </div>
+    </form>
+    
+    
+     <div id="letterContainer" class="col-md-4"><!--place for letters which already chosen-->
+        <p id="letters"></p>
+
+    
+    </div>
+
+
+
+    <div id="dashSpace" class="col-md-8 col-md-offset-2">
+        <p id="howtoplay"> Choose a word from one of the offered categories and try to guess it. If you succeed, you will save the hipster's beard and rescue him from the sharp razor of the evil barber!<br/> Good luck!!!</p>
+        <p id="dash"></p>
+
+    </div>
+
+
+   
+
+<div id="points" class="col-md-8 col-md-offset-2">
+    <h2>Points</h2>
+</div>
+
+
+
+
+<div id="guess"><span id = "message">Great job hipster you have saved you beard!!!<br/><br/></span><!--hidden div with message content-->
+
+<button class="btn btn-lg" id="button" type="submit" name="submit1" onClick="window.location.reload()">Submit</button>
+
+</div>
+
+
+</div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>

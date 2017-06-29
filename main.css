@@ -1,0 +1,147 @@
+
+.form-group{
+     position:relative;
+     top: 35%;
+}
+
+#monitor{
+    background-color: #f9efe5;
+    
+}
+
+#choose {
+    background: #4c3f49;
+    
+   
+}
+
+#btn1,
+#btn2,
+#btn3,
+#btn4 {
+   left: 10%;  
+   margin: 2.5%;
+   color: white;
+   background-color: transparent;
+   border: 1px solid white;
+   border-radius: 5px;
+   box-shadow: 0 3px #d0cecf;
+   
+}
+
+#letterContainer {
+    /*background-image: url("img/border.png");*/
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #f9efe5;
+    height: 165px;
+    border: 1px solid #4c3f49;
+    text-align: center;
+}
+
+#form {
+    /*background-image: url("img/border.png");*/
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #f9efe5;
+    border: 1px solid #4c3f49;
+    text-align: center;
+    height: 165px;
+    
+}
+
+#letter {
+
+}
+
+#submitLetter{
+
+}
+
+#dashSpace {
+    height: 30%;
+    border: 1px solid #4e3e49;
+    color: white; 
+    text-align: center;
+}
+
+#hidden7,
+#hidden6,
+#hidden5,
+#hidden4,
+#hidden3,
+#hidden2,
+#hidden1,
+#hidden0{
+   position: absolute;
+   visibility: hidden;
+   top: 1%;
+   left: 8.5%;
+}
+
+#hidden8 {
+    
+    visibility: visible;
+  
+}
+
+
+#letters {
+   position: relative;
+   top: 40%;
+   color: red;
+   font-size: 1.8em;
+}
+
+#dash {
+    text-align: center;
+    font-size: 3.5em;
+    color: red;
+    display: none;
+}
+
+#howtoplay {
+   
+    visibility: visible;
+    color: chocolate;
+    font-size: 25px;
+    margin: 1%;
+}
+#points{
+    display: none;
+    border: 1px solid black;
+    color: white;
+    font-size: 3.5em;
+}
+
+#guess{
+    visibility: hidden;
+    position: fixed;
+    text-align: center;
+    font-size: 2em;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 700px;
+    height: 300px;
+    border: 3px solid black;
+    background-color: red;
+    z-index: 999;
+}
+#button{
+    
+    width: auto;
+}
+
+#hidden{
+
+    visibility: hidden;
+}
+h2 {
+
+    float: left;
+    color: white;
+    font-size: 1.6em;
+    top: 450px;
+}
