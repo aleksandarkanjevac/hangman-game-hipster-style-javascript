@@ -4,7 +4,7 @@ var tipovi = {
     maleNames: ['arnold', 'alfred', 'barry', 'bernard', 'carl', 'david', 'edward', 'frank', 'gabriel', 'herman', 'peter', 'ralph', 'russell', 'pierce', 'martin', 'neville', 'nigel', 'oliver', 'jacob', 'joshua'],
     femaleNames: ['agatha', 'alina', 'rebecca', 'blanche', 'brianne', 'carla', 'cathy', 'dorothy', 'elena', 'flo', 'gloria', 'ida', 'iris', 'jenny', 'katie', 'leona', 'maggie', 'patricia', 'rose', 'susan'],
     animals: ['horse', 'cow', 'monkey', 'donkey', 'dog', 'fox', 'tiger', 'otter', 'elephant', 'leopard', 'squirrel', 'snake', 'cat', 'lion', 'bison', 'wolf', 'camel', 'deer', 'chameleon', 'zebra'],
-    cities: ['pariz', 'lisabon', 'kairo', 'minhen', 'madrid', 'solun', 'sofija', 'skadar', 'rim', 'moskva', 'kijev', 'prag', 'ženeva', 'čačak', 'maribor', 'segedin', 'brno', 'london', 'oslo', 'amsterdam']
+    cities: ['barcelona', 'belgrade', 'cairo', 'london', 'tokyo', 'casablanca', 'vienna', 'rome', 'moscow', 'tehran', 'kiev', 'prague', 'budapest', 'marrakesh', 'mumbai', 'istanbul', 'melbourne', 'bogota', 'brasilia', 'curitiba']
 }
 
 //variables
