@@ -1,7 +1,7 @@
 
 (function () {
 var tipovi = {
-    maleNames: ['dragan', 'uroš', 'jovan', 'svetozar', 'radoslav', 'milan', 'gvozden', 'andrej', 'mihajlo', 'petar', 'pavle', 'luka', 'steva', 'dušan', 'bogdan', 'božidar', 'miloš', 'nemanja', 'rastko', 'gojko'],
+    maleNames: ['arnold', 'alfred', 'barry', 'bernard', 'carl', 'david', 'edward', 'frank', 'gabriel', 'herman', 'peter', 'ralph', 'russell', 'pierce', 'martin', 'neville', 'nigel', 'oliver', 'jacob', 'joshua'],
     femaleNames: ['milka', 'mila', 'sanja', 'iva', 'petra', 'darja', 'ana', 'marija', 'suzana', 'danica', 'petrija', 'mihaila', 'stanka', 'milica', 'hana', 'jelica', 'mirjana', 'ljubica', 'anita', 'biljana'],
     animals: ['konj', 'krava', 'majmun', 'žirafa', 'medved', 'pas', 'tigar', 'lisica', 'slon', 'leopard', 'antilopa', 'nosorog', 'dabar', 'pingvin', 'tvor', 'šakal', 'kamila', 'lama', 'divokoza', 'zebra'],
     cities: ['pariz', 'lisabon', 'kairo', 'minhen', 'madrid', 'solun', 'sofija', 'skadar', 'rim', 'moskva', 'kijev', 'prag', 'ženeva', 'čačak', 'maribor', 'segedin', 'brno', 'london', 'oslo', 'amsterdam']
