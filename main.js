@@ -70,7 +70,7 @@ for(a=0;a<node.length;a++){
 
     }else{
        
-        alert("Uneli ste vec to slovo!!!!");
+        alert("You already chose that letter!!!!");
          elLetter.focus();
          elLetter.value = '';
         return;
