@@ -129,7 +129,7 @@ elguess.style.visibility = "visible";
       
      
 
-    message.innerHTML = "Sorry hipster, you didn't keep your beard." + "The correct answer is " + word.toUpperCase()+"!!" + " Better luck next time!";
+    message.innerHTML = "Sorry hipster, you didn't keep your beard." + "The correct answer is " + word.toUpperCase()+"!!" + " Better luck next time!<br>";
 
       elguess.style.visibility = "visible";  
 
