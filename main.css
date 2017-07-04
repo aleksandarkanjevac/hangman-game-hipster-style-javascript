@@ -55,26 +55,6 @@
     text-align: center;
 }
 
-#hidden7,
-#hidden6,
-#hidden5,
-#hidden4,
-#hidden3,
-#hidden2,
-#hidden1,
-#hidden0{
-   position: absolute;
-   visibility: hidden;
-   top: 1%;
-   left: 8.5%;
-}
-
-#hidden8 {
-    
-    visibility: visible;
-  
-}
-
 
 #letters {
    position: relative;
@@ -124,10 +104,6 @@
     width: auto;
 }
 
-#hidden{
-
-    visibility: hidden;
-}
 h2 {
 
     float: left;
