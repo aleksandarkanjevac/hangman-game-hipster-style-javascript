@@ -104,7 +104,7 @@ for(a=0;a<node.length;a++){
         //shows beard photos and nuber of attempts 
 
         hidden.setAttribute('src', "img/h" + attempts + ".png");
-        hidden.style.visibility = "visible";
+       
     }
 
     elLetter.value = ''; //errases input field
