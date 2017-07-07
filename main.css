@@ -10,7 +10,9 @@
 }
 
 #choose {
-    background: #4c3f49;   
+    background: #4c3f49;
+    
+   
 }
 
 #btn1,
@@ -48,13 +50,15 @@
     
 }
 
+
+
+
 #dashSpace {
     height: 30%;
     border: 1px solid #4e3e49;
     color: white; 
     text-align: center;
 }
-
 
 #letters {
    position: relative;
@@ -74,7 +78,7 @@
    
     visibility: visible;
     color: chocolate;
-    font-size: 25px;
+    font-size: 2em;
     margin: 1%;
 }
 #points{
@@ -101,8 +105,9 @@
 }
 #button{
     
-    width: auto;
+    
 }
+
 
 h2 {
 
@@ -112,6 +117,8 @@ h2 {
     top: 450px;
 }
 
+
+/*mobile*/
 @media (max-width: 768px) {
 #btn1,
 #btn2,
@@ -122,6 +129,13 @@ h2 {
     line-height: 1;
   }
 
+#howtoplay {
 
+    font-size: 1.5em;
  
 }
+ 
+}
+
+
+
