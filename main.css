@@ -11,7 +11,8 @@
 
 #choose {
     background: #4c3f49;
-       
+    
+   
 }
 
 #btn1,
@@ -29,6 +30,7 @@
 }
 
 #letterContainer {
+    /*background-image: url("img/border.png");*/
     background-size: cover;
     background-repeat: no-repeat;
     background-color: #f9efe5;
@@ -38,6 +40,7 @@
 }
 
 #form {
+    /*background-image: url("img/border.png");*/
     background-size: contain;
     background-repeat: no-repeat;
     background-color: #f9efe5;
@@ -47,13 +50,15 @@
     
 }
 
+
+
+
 #dashSpace {
     height: 30%;
     border: 1px solid #4e3e49;
     color: white; 
     text-align: center;
 }
-
 
 #letters {
    position: relative;
@@ -73,7 +78,7 @@
    
     visibility: visible;
     color: chocolate;
-    font-size: 25px;
+    font-size: 2em;
     margin: 1%;
 }
 #points{
@@ -98,6 +103,10 @@
     background-color: antiquewhite;
     z-index: 999;
 }
+#button{
+    
+    
+}
 
 
 h2 {
@@ -108,6 +117,8 @@ h2 {
     top: 450px;
 }
 
+
+/*mobile*/
 @media (max-width: 768px) {
 #btn1,
 #btn2,
@@ -118,6 +129,13 @@ h2 {
     line-height: 1;
   }
 
+#howtoplay {
 
+    font-size: 1.5em;
  
 }
+ 
+}
+
+
+
